@@ -1,0 +1,79 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.app-css {
+  background-color: #e6e3e3;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  gap: 4rem;
+  /* padding-top: 8rem; */
+}
+
+.input-css {
+  border: 2px solid rgb(197, 197, 197);
+  border-radius: 5px;
+  margin-right: 1rem;
+  height: 3rem;
+  width: 15rem;
+  padding: 10px;
+}
+
+.create-new-task-btn {
+  background-color: #84C3D2;
+  border: rgb(197, 197, 197);
+  border-radius: 5px;
+  height: 3rem;
+  width: 5rem;
+  color: white;
+}
+
+.list-section {
+  display: flex;
+  gap: 5rem;
+}
+
+.header-div {
+  background-color: #84C3D2;
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  padding-left: 1rem;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* .section-div {
+  width: 15rem;
+} */
+
+.count-div {
+  margin-left: 1rem;
+  background-color: white;
+  color: black;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.delete-btn {
+  position: absolute;
+}
+
